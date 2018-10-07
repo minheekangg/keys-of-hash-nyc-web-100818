@@ -5,6 +5,7 @@ class Hash
       if v == arguments
         new_array << k
       end
+      end
       return new_array
   end
 end
