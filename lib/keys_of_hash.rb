@@ -1,8 +1,5 @@
 class Hash
   def keys_of(arguments)
-    Hash.each do |k,v|
-      puts k
-      puts v
-    end
+    puts arguments.Hash
   end
 end
