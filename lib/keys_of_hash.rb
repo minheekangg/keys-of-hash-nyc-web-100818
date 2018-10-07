@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    puts arguments
+    puts *arguments
     a = *arguments
   end
 end
