@@ -1,5 +1,9 @@
 class Hash
   def keys_of(*arguments)
-    puts self
+    new_array = []
+    self.each do |k,v|
+      if v == arguments
+        new_array << k
+      end
   end
 end
