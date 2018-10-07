@@ -3,5 +3,6 @@ class Hash
     Hash.each do |k,v|
       puts k
       puts v
+    end
   end
 end
